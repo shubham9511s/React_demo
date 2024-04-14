@@ -11,8 +11,7 @@ COPY . .
 #RUN command
 RUN npm install
 
-# Port 
-EXPOSE  5173
+
 
 CMD [ "npm","run","dev" ]  
 
