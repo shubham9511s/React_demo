@@ -9,9 +9,7 @@ WORKDIR /app
 COPY . .
 
 #RUN command
-RUN npm install
-
-
+#RUN npm install
 
 CMD [ "npm","run","dev" ]  
 
